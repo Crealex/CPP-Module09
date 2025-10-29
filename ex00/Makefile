@@ -1,4 +1,4 @@
-NAME	= easyfind
+NAME	= btc
 SRCS	= main.cpp
 OBJS	=	${SRCS:%.cpp=${OBJDIR}/%.o}
 OBJDIR	= objets
