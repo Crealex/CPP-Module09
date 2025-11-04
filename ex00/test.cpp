@@ -4,7 +4,7 @@
 
 int main()
 {
-	std::string stringDate("2023-03-30");
+	std::string stringDate("2023-02-30");
 	struct tm date{};
 	struct tm after{};
 
