@@ -17,11 +17,11 @@ int main()
 	after = date;
 	std::cout << mktime(&date) << std::endl;
 	if (date.tm_year != after.tm_year)
-		std::cout << RED << "Invalid year => " << date.tm_year << RESET << std::endl;
+		std::cout << RED << "Invalid year => " << after.tm_year << RESET << std::endl;
 	if (date.tm_mon != after.tm_mon)
-		std::cout << RED << "Invalid month => " << date.tm_mon << RESET << std::endl;
+		std::cout << RED << "Invalid month => " << after.tm_mon << RESET << std::endl;
 	if (date.tm_mday != after.tm_mday)
-		std::cout << RED << "Invalid day => " << date.tm_mon << RESET << std::endl;
+		std::cout << RED << "Invalid day => " << after.tm_mon << RESET << std::endl;
 	if (date.tm_year != after.tm_year || date.tm_mday != after.tm_mday || date.tm_mon != after.tm_mon)
 	{
 		return (1);
